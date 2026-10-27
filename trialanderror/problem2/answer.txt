@@ -1,0 +1,4 @@
+flag: cs409{1f_1t_5h0w5_up_it_w4s_th3r3}
+
+solution: because it one time and if the flag has 0 then final thing is guranteed to be 0. IF teh flag has a 1 someehere then if any of the keys we used has 1 then final thing will have 1.
+So we will assume that for each position among the 20 keys used atleast one of them have a 1 there fore if flag has a 0 all of them will be 0 and if flag has a 1 then atleast one of the encryptions will have a 1 and so we take logical or of all of them to get the flag

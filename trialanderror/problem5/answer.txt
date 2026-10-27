@@ -1,0 +1,3 @@
+flag: cs409{keystr3am_reus3_1n_th3_b19_2026}
+
+solution: we can epxloit the fact that we know what the ctr variable will be in the future and so we use generate a very big cipher text initially and then use to get the keystream adn then look ahead later in the keydtream to where the keystream would strat for the encryption of th ekey and use that to decode.

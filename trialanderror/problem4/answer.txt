@@ -1,0 +1,3 @@
+flag: cs409{y0u_ch3ck3d_th3_wr0ng_s1d3_0f_th3_c1ph3r}
+
+solution: because the iv used is same everytime we can send a specially crafter message to recover the iv. now because iv is the key we can get the cipher adn then decrypt

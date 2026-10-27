@@ -1,0 +1,3 @@
+flag: cs409{you_should_always_think_twice_before_reusing_one_time_pad_key!}
+
+solution: we used the fact that english has structure (for example after 'th' most likely character is 'e') and a bit of googling for cryptography quotes to find the flag

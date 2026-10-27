@@ -1,0 +1,4 @@
+flag: cs409{4lway5_7h1nk_1in34r1y}
+
+solution: A * P + C = D modulo M where P is plaintext(ie initial seed) and D is the first output then we can do (D-C)*A^-1 = P to get previous state. A^-1 is easy to get because M has a very easy to calculate phi(M)
+since we dont know D completely because we remove the last 8 bits we have to check all possibilities of the last 8 bits for it.
